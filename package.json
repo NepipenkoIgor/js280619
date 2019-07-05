@@ -2,7 +2,7 @@
   "name": "js280619",
   "version": "1.0.0",
   "description": "",
-  "main": "index-1.js",
+  "main": "lesson-1/index-1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
