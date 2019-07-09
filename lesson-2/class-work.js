@@ -33,15 +33,15 @@
 // const info = {
 //     male: true
 // }
-// const key = 'My custom KEY !!!'
-// const user = {
-//     firstName: 'Igor',
-//     'my last name': 'Nepipenko',
-//     age,// age: age
-//     3: 'message',
-//     info,
-//     [`${key}`]: 'my value' // 'My custom KEY':  'my value'
-// };
+const key = 'My custom KEY !!!'
+const user = {
+    firstName: 'Igor',
+    'my last name': 'Nepipenko',
+    age,// age: age
+    3: 'message',
+    info,
+    [`${key}`]: 'my value' // 'My custom KEY':  'my value'
+};
 // console.log(user.firstName);
 // console.log(user[key]);
 
@@ -113,9 +113,9 @@ const user = {
     name: 'Igor',
     surname: 'Nepipenko',
     age: 33,
-    // fullName(){
-    //     return `${this.name} ${this.surname}`
-    // }
+    fullName(){
+        return `${this.name} ${this.surname}`
+    }
 };
 // const data = {
 //     weight: 110,
